@@ -2,3 +2,7 @@
 
 %:
 	dh $@
+
+override_dh_auto_configure:
+	./bootstrap
+	dh_auto_configure
