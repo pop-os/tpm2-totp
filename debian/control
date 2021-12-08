@@ -16,7 +16,7 @@ Standards-Version: 4.3.0
 Homepage: https://github.com/pop-os/tpm2-totp
 
 Package: libtpm2-totp0
-Architecture: any
+Architecture: linux-any
 Depends:
   ${misc:Depends},
   ${shlibs:Depends}
