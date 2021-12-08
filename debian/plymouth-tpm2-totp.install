@@ -1,0 +1,2 @@
+etc/initramfs-tools
+usr/lib/*/tpm2-totp/plymouth-tpm2-totp

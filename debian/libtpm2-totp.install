@@ -1,0 +1,3 @@
+usr/include
+usr/lib/*/libtpm2-totp.*
+usr/lib/*/pkgconfig

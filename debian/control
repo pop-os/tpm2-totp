@@ -1,0 +1,26 @@
+Source: tpm2-totp
+Section: admin
+Priority: optional
+Maintainer: System76 <info@system76.com>
+Build-Depends:
+  debhelper (>=9),
+Standards-Version: 4.3.0
+Homepage: https://github.com/pop-os/tpm2-totp
+
+Package: libtpm2-totp
+Architecture: any
+Depends:
+  ${misc:Depends},
+  ${shlibs:Depends}
+
+Package: plymouth-tpm2-totp
+Architecture: linux-any
+Depends:
+  ${misc:Depends},
+  ${shlibs:Depends}
+
+Package: tpm2-totp
+Architecture: linux-any
+Depends:
+  ${misc:Depends},
+  ${shlibs:Depends}
