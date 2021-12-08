@@ -3,24 +3,35 @@ Section: admin
 Priority: optional
 Maintainer: System76 <info@system76.com>
 Build-Depends:
-  debhelper (>=9),
+  debhelper (>=10),
+  autoconf-archive,
+  doxygen,
+  initramfs-tools,
+  libplymouth-dev,
+  libqrencode-dev,
+  libtss2-dev,
+  pandoc,
+  pkg-config,
 Standards-Version: 4.3.0
 Homepage: https://github.com/pop-os/tpm2-totp
 
-Package: libtpm2-totp
+Package: libtpm2-totp0
 Architecture: any
 Depends:
   ${misc:Depends},
   ${shlibs:Depends}
+Description: TPM2 TOTP library
 
 Package: plymouth-tpm2-totp
 Architecture: linux-any
 Depends:
   ${misc:Depends},
   ${shlibs:Depends}
+Description: TPM2 TOTP plymouth integration
 
 Package: tpm2-totp
 Architecture: linux-any
 Depends:
   ${misc:Depends},
   ${shlibs:Depends}
+Description: TPM2 TOTP command line program

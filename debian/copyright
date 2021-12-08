@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: tpm2-totp
+Source: https://github.com/pop-os/tpm2-totp
+
+Files: *
+Copyright: Copyright 2021 tpm2-totp maintainers
+License: BSD-3-clause
